@@ -4,7 +4,9 @@
   "description": "sample app for typescript on DigitalOcean",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm ci --include=dev",
+    "start": "tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
