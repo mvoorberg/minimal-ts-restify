@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mvoorberg/minimal-ts-restify#readme",
   "dependencies": {
+    "puppeteer": "^19.7.5",
     "restify": "^11.1.0",
     "typescript": "^4.9.5"
   },
