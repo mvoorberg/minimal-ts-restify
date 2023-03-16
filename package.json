@@ -19,12 +19,46 @@
     "url": "https://github.com/mvoorberg/minimal-ts-restify/issues"
   },
   "homepage": "https://github.com/mvoorberg/minimal-ts-restify#readme",
-  "dependencies": {
-    "puppeteer": "^19.7.5",
-    "restify": "^11.1.0",
-    "typescript": "^4.9.5"
-  },
   "devDependencies": {
-    "@types/restify": "^8.5.6"
+    "@types/debug": "^4.1.5",
+    "@types/expect.js": "^0.3.29",
+    "@types/mocha": "^8.2.0",
+    "@types/restify": "^8.5.1",
+    "@types/restify-errors": "^4.3.3",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "copyfiles": "^2.4.1",
+    "eslint": "^7.20.0",
+    "eslint-plugin-tsdoc": "^0.2.11",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.3.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.16",
+    "np": "^7.4.0",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.5.0",
+    "ts-node": "^9.1.1",
+    "typedoc": "^0.20.24",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@transomjs/transom-core": "^2.0.5",
+    "@transomjs/transom-ejs-template": "^2.0.0",
+    "@transomjs/transom-mongoose": "^2.2.0",
+    "@transomjs/transom-mongoose-localuser": "^2.0.2",
+    "@transomjs/transom-smtp": "^2.0.1",
+    "axios": "^0.21.1",
+    "debug": "^4.3.1",
+    "delay": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.8",
+    "fun-bunyan": "^1.0.10",
+    "html-pdf-chrome": "^0.8.3",
+    "passport": "^0.4.1",
+    "passport-headerapikey": "^1.2.2",
+    "puppeteer": "^19.7.2",
+    "sanitize-html": "^2.10.0",
+    "uuid": "^8.3.2"
   }
 }
