@@ -2,7 +2,12 @@
   "name": "minimal-ts-restify",
   "version": "1.0.0",
   "description": "sample app for typescript on DigitalOcean",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "14",
+    "npm": "6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm ci --include=dev",
